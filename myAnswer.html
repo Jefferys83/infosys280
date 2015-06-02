@@ -1,0 +1,63 @@
+<html>
+
+<head>
+</head>
+<body>
+<p><input value=" " id ="firstNumber"/>
+*
+<input value=" " id =" secondNumber"/>
+
+>
+<input value=" " id="thirdNumber"/>
+<input type="button" value="check" onclickj="check()">
+</p>
+
+<p><input value=" " id="1"/>
+<input value=" " id="2"/>
+<input value=" " id="3"/>
+</p>
+<p>
+<input value=" " id="4"/>
+<input value=" " id="5"/>
+<input value=" " id="6"/>
+</p>
+<p>
+<input value=" " id="7"/>
+<input value=" " id="8"/>
+<input value=" " id="9"/>
+</p>
+<p>
+<input type="button" value="check" onclickj="check()" id="checkk" >
+</p>
+<p>
+<span id="results">RESULTS:</span>
+</p>
+
+
+
+<script>
+
+var firstnumber=document.getElementById("firstNumber").value;
+var secondnumber=document.getElementById("secondNumber").value;
+var thirdnumber=document.getElementById('thirdNumber').value;
+
+
+
+
+
+$('#checkk').onclick(function() {
+
+if( firstnumber == "" || secondnumber == "" || thirdnumber == "")
+{
+alert ("Inputs could not be blank");
+}
+return;
+}
+);
+
+</script>
+
+</body>
+
+
+</html>
